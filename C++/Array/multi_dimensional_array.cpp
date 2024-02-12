@@ -14,5 +14,14 @@ int main()
         }
         cout << endl;
     }
+    cout << "size of array arr is " << sizeof(arr) << " and the number of elements are " << sizeof(arr) / sizeof(int) << endl;
+
+    char array[2][4] = {
+        {'A', 'B', 'C', 'D'},
+        {'E', 'F', 'I', 'H'},
+    };
+    array[1][2] = 'G';
+    cout << array[1][2] << endl;
+
     return 0;
 }
